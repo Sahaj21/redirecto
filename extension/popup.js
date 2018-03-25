@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
    document.getElementById('analytics').addEventListener('click',function analytics() {
-    var newURL = "http://stackoverflow.com/";
+    var newURL = "https://devaman.github.io/redirecto";
         chrome.tabs.create({ url: newURL });
    })
 
